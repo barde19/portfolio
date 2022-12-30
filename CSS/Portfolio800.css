@@ -1,0 +1,156 @@
+/* --------------------------------800-------------------------------- */
+@media screen and (max-width: 800px) {
+    .header {
+        /* background-color: yellow; */
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+
+
+    /* ------------------------------------profile starts----------------------- */
+    .container {
+        width: 100%;
+        height: auto;
+        margin-top: 8rem;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-column-gap: 0px;
+        background-color: #001638;
+        grid-template-areas: "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six"
+            "seven";
+        padding-bottom: 0rem;
+    }
+
+    /* ------------------------------------left profile------------- */
+    .one {
+        background-color: #001638;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    .profile-head-one {
+        margin: 6rem 0 0 6rem;
+        font-size: 6rem;
+    }
+
+    .profile-head-two {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 4.5rem;
+    }
+
+    .profile-head-three {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 5rem;
+    }
+
+    .btn {
+        margin: 2rem 0 0rem 6rem;
+        width: 22rem;
+        padding: 0.8rem 0.5rem;
+    }
+
+    /* ------------------------------right profile------------------------- */
+    .two {
+        height: auto;
+    }
+
+    .Profile-pic {
+        width: 35rem;
+        height: 35rem;
+        margin: 0rem 0 1rem 0;
+    }
+
+    .social-icons {
+        margin: 3.5rem 0 0 0;
+        gap: 2.8rem;
+    }
+
+    .icon-link {
+        font-size: 5.5rem;
+        margin: 0 0 0 6rem;
+    }
+
+    /* ------------------about section--------------- */
+    .skills-icon {
+        margin: 5rem 0;
+        font-size: 12rem;
+    }
+
+    /* 0------------------------------project details------------------ */
+    .card {
+        width: 80%;
+        min-height: 45rem;
+    }
+
+
+
+    .project-title {
+        font-size: 3rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .btn-one {
+        width: 15rem;
+        height: 5rem;
+        border-radius: 25rem;
+    }
+
+    .project-btn {
+        width: 15rem;
+        height: 5rem;
+    }
+
+    .project-btn a,
+    .btn-one {
+        font-size: 2rem;
+    }
+
+
+    /* -----------------------------contact section------------------- */
+    .contact-grid {
+        display: grid;
+        grid-template-areas: "grid-one" "grid-two";
+        grid-template-columns: 100%;
+        width: 90%;
+    }
+
+    .left-side-contact {
+        width: 100%;
+    }
+
+
+    .right-side-contact {
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+
+    .main-address {
+        font-size: 1.4rem;
+    }
+
+    iframe {
+        margin: 2rem 1rem 0rem 0;
+    }
+
+    .six {
+        margin-top: 0rem;
+    }
+
+    .card {
+        height: 20rem;
+    }
+
+    .seven {
+        margin-top: 0rem;
+    }
+}

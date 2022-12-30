@@ -1,0 +1,84 @@
+/* ======================================1280================================== */
+@media screen and (max-width: 1280px) {
+    body {
+        background-color: #ffffff;
+    }
+
+    .header {
+        /* background-color: #008760; */
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    /* ------------------------------------profile starts----------------------- */
+    .container {
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    /* ----------------------------left profile------------------ */
+    .one {
+        background-color: #001638;
+        padding-bottom: 8rem;
+    }
+
+    .profile-head-one {
+        margin: 11rem 0 0 6rem;
+        font-size: 4.5rem;
+    }
+
+    .profile-head-two {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 3.5rem;
+    }
+
+    .profile-head-three {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 4rem;
+    }
+
+    .btn {
+        margin: 0.8rem 0 0 6rem;
+    }
+
+    /* -----------------right profile---------------------- */
+    .two {
+        padding-bottom: 8rem;
+    }
+
+    .Profile-pic {
+        width: 30rem;
+        height: 30rem;
+        margin: 6rem 0 0 0;
+    }
+
+    .social-icons {
+        margin: 6rem 0 0 0;
+    }
+
+    .icon-link {
+        font-size: 4rem;
+        margin: 0 0 0 6rem;
+    }
+
+    /* ------------------------Project container-------------- */
+
+    .card {
+        width: 22.5rem;
+    }
+
+    /* ------------------------------------contact------------------------ */
+    .left-side-contact {
+        padding-bottom: 1.5rem;
+    }
+
+    .right-side-contact {
+        padding-bottom: 1.5rem;
+    }
+
+    .contact-grid {
+        width: 90%;
+    }
+}

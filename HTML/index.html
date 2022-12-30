@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BARDE SUMIT</title>
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="../CSS/Portfolio.css">
+    <link rel="stylesheet" href="../CSS/Portfolio1200.css">
+    <link rel="stylesheet" href="../CSS/Portfolio912.css">
+    <link rel="stylesheet" href="../CSS/Portfolio800.css">
+    <link rel="stylesheet" href="../CSS/Portfolio480.css">
+    <!-------------------------------------------------------------aos animation cdn link------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="header">
+        <p class="logo">Front<span>End</span> Developer</p>
+        <nav class="navbar ">
+            <ul class="navbar-list">
+                <li id="Home" onclick="return remove()"><a href="" class="navbar-link ">Home</a></li>
+                <li id="About" onclick="return remove()"><a href="#three" class="navbar-link">About</a></li>
+                <li id="Service" onclick="return remove()"><a href="#ed-details" class="navbar-link">Education</a></li>
+                <li id="Project" onclick="return remove()"><a href="#pro-details" class="navbar-link">Projects</a></li>
+                <li id="Contact" onclick="return remove()"><a href="#con-details" class="navbar-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+        </div>
+    </header>
+    <div class="container">
+        <!-- -----------------------profile left side-------------- -->
+        <div class="one">
+            <p class="profile-head-one">Hi,</p>
+            <p class="profile-head-two">I'm Barde Sumit</p>
+            <p class="profile-head-three">Frontend Developer.</p>
+            <a href="https://doc-04-5s-apps-viewer.googleusercontent.com/viewer/secure/pdf/q70e9domafaqh01miv4rjohcm0srpoum/ovjjp78v2m4c7r5jh8t204e6f6he8kvi/1672419150000/drive/11711422588835627420/ACFrOgD8b-OlWD99l6-QncmX0lvzorIE-jAtXVX48zyCCml1C_BewMRsb8GuYhPnzuE7qQLqb5RUZuMKusOYr-Rix0rdd7OMVnhqaTqRBvyREj2JfnAeAUvbKeGIUT_7uNu2Q6EnsSPyI7HU_F_L?print=true&nonce=0m5p2gvdhgk1i&user=11711422588835627420&hash=b6lku8ghdfoqus53ef8348ljc1gotube" target="_blank"
+                class="btn-link"><button class="btn">Get Resume</button></a>
+        </div>
+        <!-- -----------------profile right side----------------- -->
+        <div class="two">
+            <div class="Profile-pic">
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/barde-sumit-379823216/" target="_blank" class="icon-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://github.com/barde19" target="_blank" class="icon-link">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a href="https://goo.gl/maps/NtvS5drLu5MDihiv8" target="_blank" class="icon-link">
+                    <ion-icon name="location-sharp"></ion-icon>
+                </a>
+                <a href="" class="icon-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <!-- --------------about me section------------------- -->
+        <div id="three">
+            <p class="about-head">ABOUT ME</p>
+            <hr class="hr">
+            <p class="about-para">I'm a front-end developer with formal
+                training. I'm interested in creating an
+                interface for tablets, smartphones, andthe
+                web. I've finished my front-end training at JSpiders
+                Bengaluru.
+
+                As a postgraduate student, I recently received my MCA
+                (Master of Computer Applications) from the BMS
+                College of
+                Engineers in Bengaluru. I am an expert professional
+                developer that enjoys taking on problems and solving
+                them.</p>
+            <p class="about-head skills-head">SKILLS</p>
+            <hr class="hr skills">
+            <div class="skills-icon">
+                <ion-icon class="skills-icon-html" name="logo-html5"></ion-icon>
+                <ion-icon class="skills-icon-css" name="logo-css3"></ion-icon>
+                <ion-icon class="skills-icon-js" name="logo-javascript"></ion-icon>
+                <ion-icon class="skills-icon-react" id="ed-details" name="logo-react"></ion-icon>
+            </div>
+        </div>
+        <!----------------------------------educational details--------------------->
+        <div class="four">
+            <p class="about-head edu-head">EDUCATIONAL DETAILS</p>
+            <hr class="hr edu">
+            <div class="progress-div">
+                <ul class="educational div">
+                    <li class="list-edu">
+                        <div class="image"><img src="../IMAGES/pg1.png"></div>
+                        <div class="edu-details">
+                            <p class="education">MCA</p>
+                            <p class="institute">BMS College of Engineering</p>
+                            <p class="address"> Bengaluru</p>
+                        </div>
+                    </li>
+                    <li class="list-edu">
+                        <div class="image"><img src="../IMAGES/ug1.png"></div>
+                        <div class="edu-details">
+                            <p class="education">BCA</p>
+                            <p class="institute">SV Degree college </p>
+                            <p class="address">Bidar</p>
+                        </div>
+                    </li>
+                    <li class="list-edu">
+                        <div class="image"><img src="../IMAGES/school1.png"></div>
+                        <div class="edu-details">
+                            <p class="education">12<sup>th</sup></p>
+                            <p class="institute">VDMD Junior College</p>
+                            <p class="address">Degloor</p>
+                        </div>
+                    </li>
+                    <li class="list-edu">
+                        <div class="image"><img src="../IMAGES/bag1.png"></div>
+                        <div class="edu-details">
+                            <p class="education">10<sup>th</sup></p>
+                            <p class="institute">Nalanda High-School</p>
+                            <p id="pro-details" class="address">Aurad</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--------------------------project details----------------------------->
+        <div class="five">
+            <p class="about-head project">PROJECT</p>
+            <hr class="hr">
+            <div class="project_container">
+
+
+            </div>
+            <button id="con-details" class="btn-one">see more</button>
+        </div>
+        <!-- ----------------------contact details----------------- -->
+        <div class="six">
+            <p class="about-head contact">GET IN TOUCH</p>
+            <div class="contact-grid">
+                <div class="left-side-contact">
+                    <form onsubmit="return myForm(); return reset(); " id="form"  action="https://formspree.io/f/mjvzngdz" method="POST" reset(); return false;>
+                        <span id="errormessage"></span>
+                        <label>Name</label><br>
+                        <input type="text" id="name" name="fname" placeholder="Name" autocomplete="off"><br>
+                       
+                        <label>Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="Email" autocomplete="off"><br>
+                   
+                        <label>Subject</label><br>
+                        <input type="text" id="sub" name="sub" placeholder="Subject" autocomplete="off"><br>
+                      
+                        <label>Message</label><br>
+                        <textarea rows="5" id="message" name="message" placeholder="Leave Your Message"></textarea>
+               
+                        <input type="submit" id="submit-btn" value="Submit">
+                    </form>
+                </div>
+                <div class="right-side-contact">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15553.060267402358!2d77.5733936!3d12.954883099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1668787175512!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="contact-source">
+                        <p class="main-address">#34 Vidhya Kabir mutt cross<br>Bull
+                            temple road<br>Basavangudi Bengaluru 560019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seven">
+            <p class="call">Call Me: 8970480125</p>
+        </div>
+        <!-- external js -->
+        <script src="../JS/Portfolio.js"></script>
+        <!--icon links-->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <!-- smtp email -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>

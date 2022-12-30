@@ -1,0 +1,164 @@
+@media screen and (max-width: 480px) {
+
+    /* ----------------------------navbar----------------- */
+    .header {
+        background-color: #284a7b;
+        /* background-color: transparent; */
+        height: 6rem;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .active-nav {
+        background-color: #284a7b;
+        scroll-behavior: smooth;
+        transition: all 2s linear;
+    }
+
+    .container {
+        height: auto;
+
+        top: -2rem;
+        position: absolute;
+    }
+
+    /* -----------------------------------left profile---------------------------- */
+    .one {
+        padding-bottom: 1rem;
+    }
+
+    .profile-head-one {
+        margin: 5rem 0 0 3rem;
+        font-size: 3rem;
+    }
+
+    .profile-head-two {
+        margin: 1rem 0 0 3rem;
+        font-size: 2rem;
+    }
+
+    .profile-head-three {
+        margin: 1rem 0 0 3rem;
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        margin: 1rem 0 0 3rem;
+        width: 16rem;
+        padding: 0.3rem 0.5rem;
+    }
+
+    /* ----------------------------------right profile----------------------------- */
+    .two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+
+    .Profile-pic {
+        width: 25rem;
+        height: 25rem;
+        margin: 2rem 0 0 0;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .icon-link {
+        color: #ffffff;
+        font-size: 4rem;
+        margin: 0rem;
+    }
+
+    /* ------------------about section--------------- */
+    .about-para {
+        font-size: 1.8rem;
+        margin: 2rem 4rem;
+        text-align: justify;
+    }
+
+    .skills-icon {
+        font-size: 28rem;
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    /* --------------------------------educational details----------------------- */
+    .edu-head {
+        letter-spacing: 0.2rem;
+        margin: 0 0 0 0;
+    }
+
+    .list-edu {
+        margin: 4rem 0 0 0;
+    }
+
+    .image img {
+        width: 8rem;
+        height: 8rem;
+        margin: 0 3rem 0 4rem;
+    }
+
+    .education {
+        font-size: 2rem;
+    }
+
+    .institute {
+        font-size: 2rem;
+    }
+
+    .address {
+        font-size: 2rem;
+    }
+
+    /* 0------------------------------project details------------------ */
+    .card {
+        width: 80%;
+        min-height: 27rem;
+    }
+
+    .card_img {
+        height: 15rem;
+    }
+
+    .project-title {
+        font-size: 2rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .btn-one {
+        width: 9.5rem;
+        height: 3rem;
+        border-radius: 25rem;
+    }
+
+    .project-btn {
+        width: 9.5rem;
+        height: 3rem;
+    }
+
+    .project-btn a,
+    .btn-one {
+        font-size: 1.2rem;
+    }
+
+    /* -----------------------------contact------------------------ */
+    .right-side-contact {
+        flex-direction: column;
+    }
+
+    .main-address {
+        margin: 0 0 1.5rem 0;
+    }
+
+}

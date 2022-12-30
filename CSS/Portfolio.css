@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cairo&family=Jost:wght@300&family=Kanit:wght@300&family=Libre+Baskerville:wght@700&family=Merriweather+Sans&family=Mukta+Vaani:wght@300&family=Mulish:wght@400;900&family=Noto+Sans+Ethiopic&family=Outfit:wght@200&family=Play&family=Quicksand:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 8rem;
+    background-color: #284a7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10rem;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    color: white;
+    font-family: audiowide;
+    font-size: 1.5rem;
+    border: 0.4rem solid #ee3333;
+    padding: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+span {
+    color: #ee3333;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 4.8rem;
+    list-style-type: none;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* font-weight: 500; */
+    color: #ffffff;
+    transition: all 0.3s;
+    font-family: "Mukta Vaani", sans-serif;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+    color: #6bd0ff;
+}
+
+.mobile-nav-icon {
+    width: 4rem;
+    height: 4rem;
+    color: #ffffff;
+}
+
+.mobile-navbar-btn {
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+    display: none;
+}
+
+
+/* =----------------------------profile section------------------------- */
+.container {
+    margin-top: 8rem;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 35% 15% 25% 25%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "one one two two"
+        "three three three three"
+        "four four four four"
+        "five five five five"
+        "six six six six"
+        "seven seven seven seven";
+}
+
+.one {
+    background-color: #001638;
+    grid-area: one;
+    padding-bottom: 16.5rem;
+}
+
+.profile-head-one {
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-size: 6rem;
+    margin: 13rem 0 0 8rem;
+}
+
+.profile-head-two {
+    font-family: "Audiowide", cursive;
+    font-size: 4.5rem;
+    margin: 0.5rem 0 0 8rem;
+    color: #daa479;
+}
+
+.profile-head-three {
+    font-family: "Libre Baskerville", serif;
+    color: #ffffff;
+    font-size: 5rem;
+    margin: 1rem 0 0 8rem;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.btn {
+    margin: 1.8rem 0 3rem 8rem;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    border: 0.2rem solid #ffffff;
+    background-color: #284a7b;
+    font-family: "Libre Baskerville", serif;
+    width: 20.5rem;
+    border-radius: 20rem;
+    padding: 1rem 0.4rem;
+}
+
+/* -------------------------------profile right section-------------------------- */
+.two {
+    background-color: #001638;
+    grid-area: two;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16.5rem;
+}
+
+.Profile-pic {
+    width: 32rem;
+    height: 32rem;
+    border-radius: 50%;
+    border: 0.3rem solid #284a7b;
+    background-image: url("../IMAGES/profile.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 7rem;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 10rem;
+}
+
+.icon-link {
+    color: #ffffff;
+    font-size: 5rem;
+    margin: 0 0 0 6rem;
+}
+
+/* ----------------------------about and skills------------------- */
+#three {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    grid-area: three;
+}
+
+.about-head {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    margin: 3rem 0rem 0rem 0rem;
+    color: #ee3333;
+}
+
+.hr {
+    width: 15.5rem;
+    background-color: #2c2f31;
+    color: #2c2f31;
+    height: 0.1rem;
+    /* margin-bottom: 1rem; */
+    border: none;
+}
+
+.about-para {
+    font-family: 'Jost', sans-serif;
+    color: #2c2f31;
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    margin: 3rem 15rem 1rem 15rem;
+    text-align: center;
+}
+
+.skills-icon {
+    font-size: 15rem;
+    /* color:#494c4e; */
+    margin: 4rem 9rem 0 9rem;
+}
+
+.skills {
+    background-color: #ee3333;
+    width: 12rem;
+    border: none;
+
+}
+
+.skills-head {
+    color: #494c4e;
+    letter-spacing: 0.7rem;
+    margin: 2rem 0 0 0;
+}
+
+.skills-icon-html {
+    color: orangered;
+}
+
+.skills-icon-css {
+    color: rgb(12, 106, 160);
+}
+
+.skills-icon-js {
+    color: rgb(253, 219, 27);
+}
+
+.skills-icon-react {
+    color: rgb(63, 243, 243);
+}
+
+/* -------------------------------------educational details------------------------- */
+.four {
+    background-color: #ffffff;
+    grid-area: four;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.edu-head {
+    margin: 2rem 0 0 0;
+    letter-spacing: 0.2rem;
+}
+
+.list-edu {
+    display: flex;
+    list-style-type: none;
+    align-items: start;
+    justify-content: baseline;
+    margin: 4rem 0 0 0;
+}
+
+.image img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 3rem 0 0;
+}
+
+.education {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ee3333;
+    font-size: 2rem;
+}
+
+.institute {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #2c2f31;
+    font-size: 2rem;
+}
+
+.address {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #2c2f31;
+    font-size: 2rem;
+}
+
+/* ------------------------------------project details----------------------- */
+.five {
+    background-color: #ffffff;
+    grid-area: five;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project_container{
+    margin-top: 1rem;
+    width:90%;
+    height: auto;
+    /* background-color: #001638; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 20%;
+    height: auto;
+    background-color: #ffffff;
+    margin: 2rem 1rem;
+    display: none;
+background: white;
+    box-shadow: .8px .9px 3px rgb(20, 20, 20);
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 1px 8px 20px grey;
+        transition: box-shadow .6s ease-in;
+    }
+     
+
+.card_img{
+  height: 12rem;
+  width: 100%;
+}
+.card:nth-child(1){
+    display: block;
+}
+.card:nth-child(2) {
+    display: block;
+}
+.card:nth-child(3) {
+    display: block;
+}
+.card:nth-child(4) {
+    display: block;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-title{
+    font-family: 'Merriweather Sans', sans-serif;
+        color: #2c2f31;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+}
+.project-button{
+    margin: 1rem 0 2rem 0;
+}
+.project-btn a{
+    text-decoration: none;
+    color: #494c4e;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.2rem;
+}
+.project-btn {
+    background-color: transparent;
+    outline: none;
+    border: 0.1rem solid #2c2f31;
+    transition:  .6s ease-out;
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+}
+.btn-one {
+    outline: none;
+    border: none;
+    margin: 2.5rem 0 2rem 0;
+    background-color: #494c4e;
+    padding: 0.7rem 1.5rem;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 20rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.six {
+    background-color: #2c2f31;
+    grid-area: six;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-areas: "grid-one grid-two";
+    width: 75%;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: auto;
+    margin: 3rem 0;
+}
+
+.left-side-contact {
+    background-color: #ffffff;
+    grid-area: grid-one;
+    padding-bottom: 4rem;
+}
+
+.right-side-contact {
+    background-color: #ee3333;
+    grid-area: grid-two;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact {
+    color: #ffffff;
+    margin-top: 4rem;
+}
+
+form {
+    width: 90%;
+    height: auto;
+    /* background-color: #daa479; */
+    margin: 2rem auto;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    color: #2c2f31;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+input {
+    width: 100%;
+    outline: none;
+    height: 3rem;
+    border: 0.1rem solid #2c2f31;
+    outline: none;
+}
+#message {
+    width: 100%;
+    border: 0.1rem solid #2c2f31;
+        outline: none;
+}
+
+#submit-btn {
+    margin-top: 2rem;
+    background-color: #ee3333;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', sans-serif;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 3rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+
+#submit-btn:hover {
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.4s;
+}
+
+::placeholder {
+    color: #2c2f31;
+    position: absolute;
+    margin: 0.4rem 0 0 1rem;
+    font-family: 'Jost', sans-serif;
+}
+
+iframe {
+    border: 0.3rem solid rgb(199, 191, 191);
+    margin: 6rem 0 0 0;
+    width: 27rem;
+    height: 22rem;
+}
+
+.contact-source {
+    margin: 2rem 0rem 0 0;
+}
+
+.main-address {
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin-top: 3rem;
+}
+
+#errormessage {
+    color: #ee3333;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* background-color: rgba(238, 51, 51, 0.5); */
+    width: 100%;
+    text-align: center;
+   
+}
+
+.seven {
+    background-color: #ee3333;
+    grid-area: seven;
+    margin-top: 0.2rem;
+    padding: 2rem 0;
+}
+
+.call {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+

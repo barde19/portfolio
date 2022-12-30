@@ -1,0 +1,143 @@
+/* ======================================912=============================== */
+@media screen and (max-width: 912px) {
+    .mobile-navbar-btn {
+        z-index: 999;
+        display: block;
+    }
+
+    .header {
+        /* background-color: black; */
+        padding: 0 3.2rem;
+    }
+
+    .navbar {
+        /* display:none; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #284a7b;
+        height: 100vh;
+        top: 0rem;
+        left: 0rem;
+        position: absolute;
+        transform: translateX(-100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .active .navbar {
+        transform: translateX(0);
+        transition: all 0.5s linear;
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .active .mobile-nav-icon[name="close-outline"] {
+        display: block;
+    }
+
+    .active .mobile-nav-icon[name="menu-outline"] {
+        display: none;
+    }
+
+    .navbar-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /* ---------------------------------------profile section---------------- */
+    .container {
+        height: auto;
+        padding-bottom: 4rem;
+    }
+
+    /* ------------------------------------left profile-------------------------- */
+    .profile-head-one {
+        margin: 6rem 0 0 6rem;
+        font-size: 4rem;
+    }
+
+    .profile-head-two {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 3rem;
+    }
+
+    .profile-head-three {
+        margin: 0.8rem 0 0 6rem;
+        font-size: 4rem;
+    }
+
+    .btn {
+        margin: 1rem 0 0 6rem;
+        width: 18rem;
+        padding: 0.4rem 0.5rem;
+    }
+
+    /* ----------------------------------right profile-------------------- */
+    .Profile-pic {
+        width: 27rem;
+        height: 27rem;
+        margin: 3rem 0 0 0;
+    }
+
+    .social-icons {
+        margin: 4rem 0 0 0;
+        gap: 3rem;
+    }
+
+    .icon-link {
+        font-size: 3.5rem;
+        margin: 0 0 0 6rem;
+    }
+
+    /* ------------------about section--------------- */
+    .about-para {
+        font-size: 2rem;
+        margin: 2rem 4rem;
+        text-align: justify;
+    }
+
+    .skills-icon {
+        margin: 6rem 0;
+    }
+
+    /* -------------------------------project details------------------- */
+    .card {
+        width: 70%;
+        height: 47rem;
+    }
+
+    .card_img {
+        height: 28rem;
+    }
+
+    .project-title {
+        font-size: 4rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .project-btn {
+        width: 20rem;
+        height: 5rem;
+        outline: none;
+        border: 0.1rem solid #2c2f31;
+    }
+
+    .project-btn a {
+        font-size: 2.5rem;
+    }
+
+    /* ------------------------------contact details----------------------- */
+    iframe {
+        margin: 4rem 0 0 0;
+        width: 23rem;
+        height: 20rem;
+    }
+}
