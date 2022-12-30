@@ -23,8 +23,8 @@ const data = [
     },
     {
         title: 'Personal Portfolio',
-        button1: 'https://barde19.github.io/portfolio/HTML/index.html',
-        button2: 'https://github.com/barde19/portfolio',
+        button1: '#',
+        button2: 'https://github.com/barde19',
         Image: "../IMAGES/Portfolio.png",
     },
     {
