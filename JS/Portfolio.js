@@ -45,6 +45,12 @@ const data = [
         button2: 'https://fanciful-mandazi-937537.netlify.app/',
         Image: "../IMAGES/dummy.png",
     },
+    {
+        title: 'Spotify Clone`',
+        button1: 'https://fanciful-mandazi-937537.netlify.app/',
+        button2: 'https://fanciful-mandazi-937537.netlify.app/',
+        Image: "../IMAGES/dummy.png",
+    },
 
 
 
