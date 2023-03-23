@@ -34,19 +34,19 @@ const data = [
         Image: "../IMAGES/reactmultipage.png",
     },
     {
+        title: 'API Fetching',
+        button1: 'https://beautiful-moxie-7ccf81.netlify.app/',
+        button2: 'https://github.com/barde19/Fetech-API',
+        Image: "../IMAGES/git.png",
+    },
+    {
         title: 'React Ecommerce',
         button1: 'https://fanciful-mandazi-937537.netlify.app/',
         button2: 'https://fanciful-mandazi-937537.netlify.app/',
         Image: "../IMAGES/dummy.png",
     },
     {
-        title: 'Spotify Clone`',
-        button1: 'https://fanciful-mandazi-937537.netlify.app/',
-        button2: 'https://fanciful-mandazi-937537.netlify.app/',
-        Image: "../IMAGES/dummy.png",
-    },
-    {
-        title: 'Spotify Clone`',
+        title: 'Spotify Clone',
         button1: 'https://fanciful-mandazi-937537.netlify.app/',
         button2: 'https://fanciful-mandazi-937537.netlify.app/',
         Image: "../IMAGES/dummy.png",
