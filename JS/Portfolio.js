@@ -15,6 +15,7 @@ const remove = () => {
 
 //dynamic cards
 const data = [
+
     {
         title: 'Weather Report',
         button1: 'https://transcendent-macaron-0adc8c.netlify.app/',
@@ -38,6 +39,12 @@ const data = [
         button1: 'https://beautiful-moxie-7ccf81.netlify.app/',
         button2: 'https://github.com/barde19/Fetech-API',
         Image: "../IMAGES/git.png",
+    },
+    {
+        title: 'Tech News',
+        button1: 'https://deft-tanuki-2d0474.netlify.app/',
+        button2: 'https://github.com/barde19/technews',
+        Image: "../IMAGES/Teck.png",
     },
     {
         title: 'React Ecommerce',
